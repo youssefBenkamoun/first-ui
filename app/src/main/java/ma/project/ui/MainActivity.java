@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int option = groupe.getCheckedRadioButtonId();
                 double percent = 0;
+                
                 switch (option) {
                     case R.id.option_18_percent:
                         percent = 0.18;
